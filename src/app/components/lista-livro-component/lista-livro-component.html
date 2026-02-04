@@ -1,0 +1,10 @@
+<section>
+    <h2 class="texto-titulo">
+        Minhas leituras
+        <span class="linha-destaque linha-destaque--grande"></span>
+    </h2>
+
+    @for (genero of generos; track genero) {
+    <app-genero-literario-component [genero]="genero"></app-genero-literario-component>
+    }
+</section>
