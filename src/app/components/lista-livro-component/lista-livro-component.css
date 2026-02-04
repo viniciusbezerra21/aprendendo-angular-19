@@ -15,3 +15,7 @@
   display: block;
   margin: 0 auto;
 }
+
+section span {
+  margin-bottom: 64px;
+}

@@ -37,6 +37,21 @@ export class ListaLivrosComponent implements OnInit{
         id: 'suspense', 
         valor: 'suspense', 
         livros: this.livrosPorGenero.get("suspense") ?? [] 
+      },
+      {
+        id: 'tecnicos',
+        valor: 'Técnicos',
+        livros: this.livrosPorGenero.get("tecnicos") ?? []
+      },
+      {
+        id: 'misterio',
+        valor: 'Misterio',
+        livros: this.livrosPorGenero.get("misterio") ?? []
+      },
+      {
+        id: 'ficcao-cientifica',
+        valor: 'Ficção Científica',
+        livros: this.livrosPorGenero.get("ficcao-cientifica") ?? []
       }
     ]
       console.log(this.livrosPorGenero)
